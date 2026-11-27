@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap");
+
+:root {
+  --pink: #ffb7d5;
+  --pink-dark: #ff7eb6;
+  --lavender: #d9c8ff;
+  --mint: #c4f2e3;
+  --cream: #fff7fb;
+  --text: #6b4c7a;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Fredoka", "Comic Sans MS", sans-serif;
+  color: var(--text);
+  background: linear-gradient(160deg, #ffe3f1 0%, #e8dcff 50%, #d4f5ec 100%);
+}
+
+#root {
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-align: center;
+}
